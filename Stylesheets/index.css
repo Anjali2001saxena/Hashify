@@ -1,0 +1,170 @@
+
+
+h1
+{
+    background: -webkit-linear-gradient(rgb(253, 75, 143), rgba(3, 40, 252, 0.644));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    text-decoration: none;
+    color: white;
+}
+a:hover
+{
+    color: black;
+}
+
+.flex-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex-section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading
+{
+    margin: 2%;
+    font-family: Great Vibes;
+    font-size: 20vh;
+    
+}
+
+.quote
+{
+    margin-left: 7%;
+    font-family: Esteban;
+    font-size: 6vh;
+}
+
+.button
+{
+    width: 35vh;
+    padding: 2%;
+    margin-left: 20%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644);
+    background-image: linear-gradient(to left top,rgb(253, 72, 142), rgba(3, 40, 252, 0.562));
+}
+.button:hover
+{
+    background-image: linear-gradient(to left top,rgb(252, 6, 100), rgba(251, 251, 253, 0.973));
+}
+
+.main-illustration
+{
+    display: none;
+}
+
+.illustration
+{
+    position: fixed;
+    right: 0;
+    top: 0%;
+    width: 50%;
+    height: 90vh;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 1050px)
+{
+
+    .flex-section
+    {
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    .heading
+    {
+        margin-top: 15vh;
+        margin-bottom: 5vh;
+        font-size: 8vh;
+    }
+
+    .quote
+    {
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        font-size: 4vh;
+    }
+
+    .button
+    {
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .flex-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .flex-section
+    {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .heading
+    {
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+        font-size: 8vh;
+    }
+
+    .quote
+    {
+        font-size: 4vh;
+    }
+
+    .button
+    {
+        margin: auto;
+    }
+
+    .illustration
+    {
+        display: none;
+    }
+
+    .main-illustration
+    {
+        display: block;
+        width: 100%;
+        height: 40vh;
+        margin-top: 2%;
+        margin-bottom:4%;
+    }
+}

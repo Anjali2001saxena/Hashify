@@ -1,0 +1,74 @@
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: white;
+}
+.tables
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(2, 0, 0);
+    
+}
+td
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(255, 4, 159, 0.966), rgba(0, 0, 255, 0.603));
+}
+th
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vh;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    background-color: grey;
+}
+
+.fa-twitter 
+{
+    text-decoration: none;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+}
+.fa-twitter:hover
+{
+    font-size: xx-large;
+    color: rgb(86, 86, 252);
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 600px)
+{
+    td
+    {
+        font-size: 1vh;
+        font-weight: bolder;
+    }
+    th
+    {
+        font-size: 2vh;
+    }
+}
